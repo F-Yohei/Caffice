@@ -1,0 +1,149 @@
+@media screen and (max-width:320px) {
+    .menu-content {
+        display: none;
+    }
+    .navigation-content {
+        margin: 0;
+        width: 100%;
+    }
+    .sumafo-nav-icon {
+        display: block;
+    }
+    .top-bgimg img {
+        width: 60%;
+        transform: translateY(200%);
+    }
+    .concept {
+        width: 80%;
+    }
+    .slide-content-wrapper {
+        width: 81%;
+        margin: 0 auto;
+    }
+    .slide-content {
+        padding: 220px 0;
+        height: 180vh;
+    }
+    .menu-description-wrapper {
+        width: 90%;
+    }
+    .menu-explanation {
+        flex-direction: column;
+    }
+    .explanation-text {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .service-contents {
+        flex-direction: column;
+    }
+    .service-content {
+        width: 90%;
+        margin: 0 auto;
+        padding: 25px 30px;
+    }
+    .service-content h4 {
+        line-height: 60px;
+        padding: 25px 10px;
+    }
+    .menuImages {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .menu-image-block {
+        margin: 3px 0;
+        height: 220px;
+    }
+    .big-box {
+        height: 445px;
+    }
+    .ceritified-quality-block {
+        flex-direction: column;
+    }
+    .single-image-box {
+        width: 100%;
+    }
+    .single-image-box img {
+        width: 30%;
+    }
+    .contact-block {
+        flex-direction: column;
+    }
+    .inquiry-area,
+    .contact-infomation {
+        width: 100%;
+        padding: 0 25px;
+    }
+    .recruitment span {
+        font-size: .18rem;
+    }
+    .sns {
+        flex-direction: column;
+    }
+    .sns-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer-inner {
+        padding: 10px 0;
+    }
+    .footer-wrapper {
+        height: 56px;
+        padding: 0 15px;
+        width: 80%;
+        margin: 0 auto;
+        line-height: 28px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .menu-content {
+        display: none;
+    }
+    .ipad-nav-icon {
+        display: block;
+    }
+    .navigation-content {
+        margin: 0;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 15px;
+    }
+    .top-bgimg {
+        height: 100vh;
+    }
+    .top-bgimg img {
+        transform: translate(10%, 50%);
+        width: 60%;
+    }
+    .slide-content {
+        height: 150vh;
+    }
+    .concept-wrapper {
+        margin: 0 auto;
+        width: 98%;
+    }
+    .service-contents {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .service-content {
+        width: 28%;
+        padding: 20px 20px;
+    }
+    .service-content h4 {
+        line-height: 60px;
+    }
+    .menu-description-wrapper {
+        margin: 0 auto;
+    }
+    .inquiry-area,
+    .contact-infomation {
+        width: 45%;
+    }
+    .sns-box {
+        margin: 0 25px;
+    }
+}
